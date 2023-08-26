@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700&family=Roboto:ital,wght@0,100;0,300;1,100;1,300;1,400&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+html
+{
+    font-size:1.5rem;
+    color:rebeccapurple;
+    background-color:rgba(255, 0, 72, 0.062);
+    font-family:Nunito;
+
+}
+header
+{
+    background-color:black;
+    padding:1rem;
+    border-style:solid;
+    border:.1rem solid blue;
+}
+nav
+{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    margin:.8rem;
+}
+.right 
+{
+    word-spacing:2rem;
+    word-spacing:1rem;
+    text-transform:capitalize;
+    font-size:1rem;
+    color:white;
+    
+}
+.left
+{
+   color:Blue; 
+}
+.left p
+{
+    text-transform:uppercase;
+    font-size:1rem;
+}
+.right a{
+    color:white;
+    text-decoration:none;
+}
+.firstsection
+{
+    font-size:1rem; 
+    display:flex; 
+    justify-content:space-around;
+    margin:80px 0;
+    
+}
+.firstsection div
+{
+    width:30%;
+}
+.leftsection
+{
+    font-size:1.5rem;
+    margin:50px;
+    word-spacing:5px;
+    padding:1rem;
+}
+.leftsection p{
+    color:black;
+}
+.rightsection img
+{  
+    margin:0 2rem;
+    height:120%;
+    width:100%;
+    left:-10rem;
+
+}
+main hr
+{
+    margin:1.5rem;
+}
+.secondsection
+{
+    max-width:80vw;
+    margin:auto;
+    height:80vh;
+}
+.secondsection p
+{
+    color:green;
+}
+.secondsection h3
+{
+    color:blue;
+    padding:1rem;
+}
+.secondsection .box
+{
+    background:red;
+    width:80vw;
+    height:.1rem;
+    margin:2rem 0;
+    display:flex;
+
+}
+.secondsection .box .vertical
+{
+    height:90px;
+    width:1px;
+    background:red;
+    margin:0 150px;
+}
+.secondsection .box .vertical .image-top
+{
+    position:relative;
+    top:-37px ;
+    right:12px;
+}
+.secondsection .box .vertical .vertical-title
+{
+    position:relative;
+    top:50px;
+    left:-100px;
+    width:250px;
+    font-size:0.8em;
+    color:black;
+}
+.secondsection .box .vertical .vertical-desc
+{
+    position:relative;
+    font-size:1rem;
+    top:60px;
+    left:-80px;
+    width:220px;
+
+}
+footer
+{
+    background-color:rgba(0, 0, 0, 0.727);
+    width:100%;
+    height:25vh;
+    align-items:center;
+}
+footer .flex
+{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+footer .flex .footer-second h3
+{
+    color:green;
+}
+footer .flex .footer-second ul
+{
+    color:white;
+    list-style:none;
+}
+footer .flex .footer-second a
+{
+    text-decoration:none;
+    text-transform:lowercase;
+    display:inline;
+}
+footer .footer-right
+{
+    text-align:center;
+    color:yellowgreen;
+    margin:30px 0;
+}
+
+
